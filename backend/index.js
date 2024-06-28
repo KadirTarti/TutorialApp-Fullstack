@@ -13,7 +13,7 @@ app.use(express.json());
 //* specific
 app.use(
   cors({
-    origin: "http://localhost:3000",//* sondaki slash olmayacak. sadece localhost:3000 e izin ver. Host adresi
+    origin: "https://tutorialapp-fullstack-1.onrender.com/",//* sondaki slash olmayacak. sadece localhost:3000 e izin ver. Host adresi
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",//* methodlara verilecek izinleri ayarlanabilir.
   })
 );
